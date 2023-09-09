@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/contact.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalina Avadani</title>
+    <!-- favicon -->
+    
+    <!-- font-awesome -->
+    
+    
+  <link rel="shortcut icon" href="http://127.0.0.1:5500/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="./Catalina Avadani_files/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./Catalina Avadani_files/style.css"></head>
+  <body>
+    <!-- Navbar -->
+    <div class="navigation">
+      <div class="logo">
+        <h1>Catalina<span>Avadani</span></h1>
+      </div>
+      <!-- Navigation-links -->
+      <ul class="nav-links">
+        <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/about.html">About </a></li>
+        <li><a href="http://127.0.0.1:5500/portofolio.html">Projects</a></li>
+        <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Contact Section -->
+    <section class="contact-center" style="
+    padding-top: 5rem;
+">
+      <div class="contact-form">
+        <h1 class="tilte">Contact Me</h1>
+        <form action="http://127.0.0.1:5500/contact.html">
+          <div class="contact-input">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="contact-input">
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="contact-btn">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <hr>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="media-icons">
+        <li>
+          <a href="http://127.0.0.1:5500/www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="http://127.0.0.1:5500/www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="http://127.0.0.1:5500/www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://127.0.0.1:5500/www.squarespace.com"><i class="fa-brands fa-squarespace"></i></a>
+        </li>
+      </ul>
+      <p>© 2023 Catalina Avadani. All rights reserved</p>
+    </footer>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
